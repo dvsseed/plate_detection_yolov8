@@ -29,12 +29,10 @@ This project provides a Python script for detecting and recognizing license plat
    ```bash
    pip install opencv-python numpy pytesseract ultralytics
 3. **Install Tesseract OCR**:
-Download and install Tesseract OCR from here.
-Update the pytesseract.pytesseract.tesseract_cmd variable in the script to point to your Tesseract executable. For example:
-python
-換行
-複製
-pytesseract.pytesseract.tesseract_cmd = r"C:\Program Files\Tesseract-OCR\tesseract.exe"
+  - Download and install Tesseract OCR from here.
+  - Update the pytesseract.pytesseract.tesseract_cmd variable in the script to point to your Tesseract executable. For example:
+  ```python
+  pytesseract.pytesseract.tesseract_cmd = r"C:\Program Files\Tesseract-OCR\tesseract.exe"
 Prepare the YOLO Model:
 Place your pre-trained YOLO model (e.g., best.pt) in the project directory. If your model is located elsewhere, specify its path when initializing the LicensePlateDetector class.
 Usage
