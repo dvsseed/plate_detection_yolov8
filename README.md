@@ -12,6 +12,7 @@ This project provides a Python script for detecting and recognizing license plat
 
 ## Requirements
 
+-**Platform**: Windows 11
 - Python 3.x
 - OpenCV (`opencv-python`)
 - NumPy (`numpy`)
@@ -89,7 +90,7 @@ This project provides a Python script for detecting and recognizing license plat
  ├── cars0.jpg                   # Sample input image
  └── README.md                   # Project documentation
  ```
-
+ [!TIP]best.pt file download from [here](https://mahaljsp.ddns.net/files/yolov8/car.pt)
  <!-- TREEVIEW END -->
 
 ## Troubleshooting
