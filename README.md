@@ -91,7 +91,7 @@ This project provides a Python script for detecting and recognizing license plat
  └── README.md                   # Project documentation
  ```
  <!-- TREEVIEW END -->
- [!TIP]best.pt file download from [here](https://mahaljsp.ddns.net/files/yolov8/car.pt)
+ > [!TIP]best.pt file download from [here](https://mahaljsp.ddns.net/files/yolov8/car.pt)
 
 ## Troubleshooting
 
