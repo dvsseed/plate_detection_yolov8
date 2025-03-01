@@ -33,7 +33,7 @@ This project provides a Python script for detecting and recognizing license plat
 3. **Install Tesseract OCR**:
    - Download and install Tesseract OCR from [here](https://github.com/tesseract-ocr/tesseract).
    - Update the `pytesseract.pytesseract.tesseract_cmd` variable in the script to point to your Tesseract executable. For example:
-   ```bash
+   ```python
    pytesseract.pytesseract.tesseract_cmd = r"C:\Program Files\Tesseract-OCR\tesseract.exe"
    ```
 4. **Prepare the YOLO Model**:
@@ -57,7 +57,7 @@ This project provides a Python script for detecting and recognizing license plat
 - Ex:
   ```bash
   python license_plate_detection.py --image "./cars0.jpg" --scale 75 --save
-   ```
+  ```
 - This command will process the image `cars0.jpg`, scale the display to 75%, and save the result as `output_cars0.jpg`.
 
 ## Customization
@@ -66,7 +66,7 @@ This project provides a Python script for detecting and recognizing license plat
 - OCR Settings: Adjust the custom_config in _recognize_text_from_plate() to match your license plate format. For example, to allow specific characters:
   ```python
   custom_config = r'--psm 6 -c tessedit_char_whitelist=ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789·'
-   ```
+  ```
 - Display Scale: Use the `--scale` argument to adjust the size of the displayed or saved image.
 
 ## Example Output
