@@ -91,7 +91,7 @@ This project is licensed under the MIT License.
 
 ## Acknowledgements
 
-- Ultralytics YOLO for the object detection framework.
+- [Ultralytics YOLO](#https://github.com/ultralytics/ultralytics) for the object detection framework.
 - Tesseract OCR for text recognition capabilities.
 
 ## Contributing
