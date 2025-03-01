@@ -29,7 +29,7 @@ This project provides a Python script for detecting and recognizing license plat
    ```bash
    pip install opencv-python numpy pytesseract ultralytics
 3. **Install Tesseract OCR**:
-   - Download and install Tesseract OCR from here.
+   - Download and install Tesseract OCR from [here](https://github.com/tesseract-ocr/tesseract).
    - Update the `pytesseract.pytesseract.tesseract_cmd` variable in the script to point to your Tesseract executable. For example:
    ```python
    pytesseract.pytesseract.tesseract_cmd = r"C:\Program Files\Tesseract-OCR\tesseract.exe"
@@ -92,7 +92,7 @@ This project is licensed under the MIT License.
 ## Acknowledgements
 
 - [Ultralytics YOLO](https://github.com/ultralytics/ultralytics) for the object detection framework.
-- Tesseract OCR for text recognition capabilities.
+- [Tesseract OCR](https://github.com/tesseract-ocr/tesseract) for text recognition capabilities.
 
 ## Contributing
 
