@@ -12,7 +12,7 @@ This project provides a Python script for detecting and recognizing license plat
 
 ## Requirements
 
--**Platform**: Windows 11
+- **Platform**: Windows 11
 - Python 3.x
 - OpenCV (`opencv-python`)
 - NumPy (`numpy`)
