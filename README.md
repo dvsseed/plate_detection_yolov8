@@ -50,10 +50,10 @@ This project provides a Python script for detecting and recognizing license plat
 
 ### Example:
 
-<p> ```bash
+- Ex:
+  ```bash
   python license_plate_detection.py --image "./cars0.jpg" --scale 75 --save
-</p>
-* This command will process the image `cars0.jpg`, scale the display to 75%, and save the result as `output_cars0.jpg`.
+- This command will process the image `cars0.jpg`, scale the display to 75%, and save the result as `output_cars0.jpg`.
 
 ## Customization
 
