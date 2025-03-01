@@ -25,14 +25,17 @@ This project provides a Python script for detecting and recognizing license plat
    ```bash
    git clone https://github.com/dvsseed/plate_detection_yolov8.git
    cd plate_detection_yolov8
+   ```
 2. **Install Python Dependencies**:
    ```bash
    pip install opencv-python numpy pytesseract ultralytics
+   ```
 3. **Install Tesseract OCR**:
    - Download and install Tesseract OCR from [here](https://github.com/tesseract-ocr/tesseract).
    - Update the `pytesseract.pytesseract.tesseract_cmd` variable in the script to point to your Tesseract executable. For example:
    ```python
    pytesseract.pytesseract.tesseract_cmd = r"C:\Program Files\Tesseract-OCR\tesseract.exe"
+   ```
 4. **Prepare the YOLO Model**:
    - Place your pre-trained YOLO model (e.g., `best.pt`) in the project directory. If your model is located elsewhere, specify its path when initializing the `LicensePlateDetector` class.
 
@@ -41,6 +44,7 @@ This project provides a Python script for detecting and recognizing license plat
 - Run the script with default settings:
   ```bash
   python license_plate_detection.py
+   ```
 
 ### Command-Line Options
 
@@ -53,6 +57,7 @@ This project provides a Python script for detecting and recognizing license plat
 - Ex:
   ```bash
   python license_plate_detection.py --image "./cars0.jpg" --scale 75 --save
+   ```
 - This command will process the image `cars0.jpg`, scale the display to 75%, and save the result as `output_cars0.jpg`.
 
 ## Customization
@@ -61,6 +66,7 @@ This project provides a Python script for detecting and recognizing license plat
 - OCR Settings: Adjust the custom_config in _recognize_text_from_plate() to match your license plate format. For example, to allow specific characters:
   ```python
   custom_config = r'--psm 6 -c tessedit_char_whitelist=ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789·'
+   ```
 - Display Scale: Use the `--scale` argument to adjust the size of the displayed or saved image.
 
 ## Example Output
@@ -71,16 +77,20 @@ This project provides a Python script for detecting and recognizing license plat
   ```text
   Detected license plate 1: AM7A043
   Detected license plate 2: AH14623
+  ```
 
 ## Project Structure
-
-- ```bash
+ <!-- TREEVIEW START -->
+ ```bash
  license-plate-detection/
  │
  ├── license_plate_detection.py  # Main script for detection and recognition
  ├── best.pt                     # Pre-trained YOLO model (example)
  ├── cars0.jpg                   # Sample input image
  └── README.md                   # Project documentation
+ ```
+
+ <!-- TREEVIEW END -->
 
 ## Troubleshooting
 
