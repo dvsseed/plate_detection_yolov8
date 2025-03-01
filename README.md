@@ -90,8 +90,8 @@ This project provides a Python script for detecting and recognizing license plat
  ├── cars0.jpg                   # Sample input image
  └── README.md                   # Project documentation
  ```
- [!TIP]best.pt file download from [here](https://mahaljsp.ddns.net/files/yolov8/car.pt)
  <!-- TREEVIEW END -->
+ [!TIP]best.pt file download from [here](https://mahaljsp.ddns.net/files/yolov8/car.pt)
 
 ## Troubleshooting
 
