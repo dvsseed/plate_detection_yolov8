@@ -92,9 +92,9 @@ This project provides a Python script for detecting and recognizing license plat
  ```
  <!-- TREEVIEW END -->
 
-> **💡 TIP1**: You can download the `best.pt` file from [here](https://mahaljsp.ddns.net/files/yolov8/car.pt)
-
-> **💡 TIP2**: You can download car plate license images from Kaggle: [Car License Plate Detection](https://www.kaggle.com/datasets/andrewmvd/car-plate-detection?resource=download).
+> **💡 TIP 1**: You can download the `best.pt` file from [here](https://mahaljsp.ddns.net/files/yolov8/car.pt)
+>
+> **💡 TIP 2**: You can download car plate license images from Kaggle: [Car License Plate Detection](https://www.kaggle.com/datasets/andrewmvd/car-plate-detection?resource=download).
 
 ## Troubleshooting
 
