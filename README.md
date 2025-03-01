@@ -30,11 +30,11 @@ This project provides a Python script for detecting and recognizing license plat
    pip install opencv-python numpy pytesseract ultralytics
 3. **Install Tesseract OCR**:
    - Download and install Tesseract OCR from here.
-   - Update the pytesseract.pytesseract.tesseract_cmd variable in the script to point to your Tesseract executable. For example:
+   - Update the `pytesseract.pytesseract.tesseract_cmd` variable in the script to point to your Tesseract executable. For example:
    ```python
    pytesseract.pytesseract.tesseract_cmd = r"C:\Program Files\Tesseract-OCR\tesseract.exe"
 4. **Prepare the YOLO Model**:
-   Place your pre-trained YOLO model (e.g., best.pt) in the project directory. If your model is located elsewhere, specify its path when initializing the LicensePlateDetector class.
+   - Place your pre-trained YOLO model (e.g., `best.pt`) in the project directory. If your model is located elsewhere, specify its path when initializing the `LicensePlateDetector` class.
 
 ## Usage
 
@@ -42,13 +42,13 @@ Run the script with default settings:
 ```bash
 python license_plate_detection.py
 ### Command-Line Options
-- --image: Path to the input image (default: ./cars0.jpg).
-- --scale: Display scale percentage for the output image (default: 50).
-- --save: Save the output image instead of displaying it (flag).
+- `--image`: Path to the input image (default: `./cars0.jpg`).
+- `--scale`: Display scale percentage for the output image (default: `50`).
+- `--save`: Save the output image instead of displaying it (flag).
 ### Example:
 ```bash
 python license_plate_detection.py --image "./cars0.jpg" --scale 75 --save
-This command will process the image cars0.jpg, scale the display to 75%, and save the result as output_cars0.jpg.
+This command will process the image `cars0.jpg`, scale the display to 75%, and save the result as `output_cars0.jpg`.
 
 ## Customization
 
@@ -56,7 +56,7 @@ This command will process the image cars0.jpg, scale the display to 75%, and sav
 - OCR Settings: Adjust the custom_config in _recognize_text_from_plate() to match your license plate format. For example, to allow specific characters:
 ```python
 custom_config = r'--psm 6 -c tessedit_char_whitelist=ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789·'
-- Display Scale: Use the --scale argument to adjust the size of the displayed or saved image.
+- Display Scale: Use the `--scale` argument to adjust the size of the displayed or saved image.
 
 ## Example Output
 
@@ -79,7 +79,7 @@ license-plate-detection/
 
 ## Troubleshooting
 
-- Model Loading Error: If you encounter an error like Error loading YOLO model: pickle data was truncated, ensure that the model file is not corrupted and the path is correct. You may need to re-download the model or check the file integrity.
+- Model Loading Error: If you encounter an error like `Error loading YOLO model: pickle data was truncated`, ensure that the model file is not corrupted and the path is correct. You may need to re-download the model or check the file integrity.
 - Tesseract Not Found: Make sure Tesseract OCR is installed and the path in the script is correctly set.
 - Image Not Found: Verify that the input image path is correct and the file exists.
 
