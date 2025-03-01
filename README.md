@@ -41,12 +41,10 @@ This project provides a Python script for detecting and recognizing license plat
 Run the script with default settings:
 ```bash
 python license_plate_detection.py
-
 ### Command-Line Options
 - --image: Path to the input image (default: ./cars0.jpg).
 - --scale: Display scale percentage for the output image (default: 50).
 - --save: Save the output image instead of displaying it (flag).
-
 ### Example:
 ```bash
 python license_plate_detection.py --image "./cars0.jpg" --scale 75 --save
