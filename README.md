@@ -33,7 +33,7 @@ This project provides a Python script for detecting and recognizing license plat
 3. **Install Tesseract OCR**:
    - Download and install Tesseract OCR from [here](https://github.com/tesseract-ocr/tesseract).
    - Update the `pytesseract.pytesseract.tesseract_cmd` variable in the script to point to your Tesseract executable. For example:
-   ```python
+   ```bash
    pytesseract.pytesseract.tesseract_cmd = r"C:\Program Files\Tesseract-OCR\tesseract.exe"
    ```
 4. **Prepare the YOLO Model**:
