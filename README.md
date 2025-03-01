@@ -94,7 +94,7 @@ This project provides a Python script for detecting and recognizing license plat
 
 ## Troubleshooting
 
-- Model Loading Error: If you encounter an error like `Error loading YOLO model: pickle data was truncated`, ensure that the model file is not corrupted and the path is correct. You may need to re-download the model or check the file integrity.
+- Model Loading Error: If you encounter an error like `#ff5733`Error loading YOLO model: pickle data was truncated`, ensure that the model file is not corrupted and the path is correct. You may need to re-download the model or check the file integrity.
 - Tesseract Not Found: Make sure Tesseract OCR is installed and the path in the script is correctly set.
 - Image Not Found: Verify that the input image path is correct and the file exists.
 
